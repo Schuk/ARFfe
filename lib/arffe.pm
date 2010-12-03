@@ -21,6 +21,10 @@ post '/spam' => sub {
         as  => 'spamfeed-me',
     );
 
+    unless ($report) {
+        redirect '/';
+    }
+
     $report->munge();
 #    $report->addrcpt( 'foo@bar.de' );
     $report->addrcpt( Email::Report::ARF::getcontact( $report->{'Source-IP'}) );

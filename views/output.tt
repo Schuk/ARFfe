@@ -16,7 +16,7 @@
           <li>
             <h3>Join the community</h3>
             <ul class="links">
-
+			 <li><a href="/">Home</a></li>
               <li><a href="http://www.spamfeed.me/">Spamfeed.me</a></li>
               <li><a href="http://twitter.com/abusix/">Official Twitter</a></li>
               <li><a href="http://www.abusix.com">Abusix</a></li>
