@@ -1,0 +1,11 @@
+ARFfe
+
+Frontend for creating Abuse reports by hand
+Uses Email::Report::ARF
+
+http://www.abusix.com
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2010 abusix UG
+All rights reserved.
